@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script&family=Lobster&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background: url('./assets/quote.jpg') center/cover no-repeat;
+  height: 100vh;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.qoute {
+  text-align: center;
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  width: 450px;
+  height: 200px;
+  padding: 50px;
+
+}
+.qoute h2{
+  font-size: 2em;
+  color: rgb(25, 78, 125);
+  font-weight: 400;
+  margin-bottom: 20px;
+  font-family: 'Lobster', sans-serif;
+}
+.qoute small{
+  font-size: 1.5em;
+  font-family: 'Dancing Script', cursive;
+}
+
+.btn {
+  background-color: #325dba;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.btn:hover{
+  background-color: #325dba;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #325dba;
+}
+
